@@ -21,7 +21,7 @@ void bubble_sort(int *array, size_t size)
 			bubble = 1;
 			print_array(array, size);
 		}
-		if (a == b - 2)
+		if (a == s - 2)
 		{
 			if (bubble == 0)
 				break;
