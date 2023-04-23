@@ -20,7 +20,7 @@ void shell_sort(int *array, size_t size)
 		while (a < size)
 		{
 			shell = array[a];
-			for (b = a; b > ar && array[b - ar] > shell; b -= ar)
+			for (b = a; b >= ar && array[b - ar] > shell; b -= ar)
 			{
 				array[b] = array[b - ar];
 			}
